@@ -27,7 +27,7 @@ public class date {
 
     //third date print
     public void print3(){
-        System.out.println(day + monthString + year);
+        System.out.println(day + " " + monthString + " " + year);
     }
 
     //set up class to figure out month in string

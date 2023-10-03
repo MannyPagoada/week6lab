@@ -22,7 +22,10 @@ public class main{
         System.out.println("Please enter the year: ");
         year=scanner.nextInt();
 
-        System.out.println("You entered: " + month + "/" + day + "/" + year);
+        date date = new date(day, month, year);
+        date.print();
+        date.print2();
+        date.print3();
 
 
 
